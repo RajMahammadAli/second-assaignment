@@ -3,6 +3,7 @@
     padding: 0px;
 }
 
+/*Start of Header section*/
 
 header {
     width: 100%;
@@ -35,8 +36,6 @@ header {
     font-size: 16px;
     font-weight: 500;
 }
-
-
 
 .fas {
     margin-right: 12px;
@@ -75,13 +74,10 @@ header {
     transition-property: background-image;
     transition-duration: 1s;
     transition-delay: .3em;
-
-
 }
 
 .button:hover {
     background-image: linear-gradient(70deg, rgb(238, 163, 25), #df1861);
-    
 }
 
 .button>.fas {
@@ -93,7 +89,6 @@ header {
     color: white;
     font-size: 64px;
     font-weight: 700;
-
 }
 
 
@@ -101,6 +96,10 @@ header {
     width: 556px;
     height: 438px;
 }
+
+
+/*End of Header section*/
+
 
 
 /*Start of player Section*/
@@ -146,6 +145,11 @@ header {
     color: #6C6C6C;
 }
 
+/*End of player Section*/
+
+
+
+/*Start of fix-frame Section*/
 
 .fix-iframe {
     margin-top: 70px;
@@ -192,15 +196,36 @@ header {
 
  .flag-img {
      margin-left: 10px;
-     
+     padding-left: 10px;
      width: 80px;
      height: 40px;
      
  }
 
+ .rank-link {
+     
+     padding: 0px 10px;
+     text-decoration: none;
+     color: darkblue; 
+     font-weight: 500;
+ }
+
+ .rank-link:hover {
+     border: 1px solid blue;
+     border-radius: 15px;
+     background-color: darkblue;
+     color: whitesmoke;
+ }
+
  .frame {
      margin-top: 50px;
  }
+
+
+ /*End of fix-frame Section*/
+
+
+/*Start of footer Section*/
 
 footer {
     margin-top: 100px;
@@ -253,6 +278,108 @@ footer p {
     font-size: 18px;
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
+}
+
+
+/*End of footer Section*/
+
+
+
+
+/*design for responsiveness*/
+
+@media only screen and (max-width: 599px) {
+    header {
+        width: 100%;
+        height: auto;
+        background-color: #2D25A0;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .navigation {
+        display: block;
+        align-items: center;
+    }
+    
+    .nav-menu {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 100%;
+        padding: 10px;
+        display: block;
+    }
+    
+    .menu a {
+        font-size: 24px;
+        font-weight: 500;
+        color: #FFFFFF;
+        text-decoration: none;
+        padding-right: 36px;
+        font-size: 16px;
+        font-weight: 500;
+        display: block;
+    }
+    
+    .fas {
+        margin-top: 20px;
+        margin-right: 12px;
+    }
+    
+    .main-text {
+        margin: 49px 136px;
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    
+    .header-text {
+        margin: 0;
+        padding: 0;
+        width: 780px;
+    }
+    
+    .banner {
+        width: 450px;
+    }
+    
+    .header-text {
+        margin-right: 156px;
+        
+    }
+    
+    .button {
+        
+        color: white;   
+        font-size: 16px;
+        font-weight: 500;
+        text-decoration: none;
+        padding: 7px 15px;
+        background-color: #E02C6D;
+        transition-property: background-image;
+        transition-duration: 1s;
+        transition-delay: .3em;
+    }
+    
+    .button:hover {
+        background-image: linear-gradient(70deg, rgb(238, 163, 25), #df1861);
+    }
+    
+    .button>.fas {
+        padding-left: 10px;
+    }
+    
+    .main-text h1 {
+        margin-bottom: 27px;
+        color: white;
+        font-size: 64px;
+        font-weight: 700;
+    }
+    
+    
+    .banner-image {
+        width: 556px;
+        height: 438px;
+    }
 }
 
 
