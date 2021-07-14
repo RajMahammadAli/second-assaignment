@@ -147,6 +147,61 @@ header {
 }
 
 
+.fix-iframe {
+    margin-top: 70px;
+    margin-left: 170px;
+    width: 1050px;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.fixture {
+    margin-right: 30px;
+    width: 450px;
+    padding: 20px;
+    
+    text-align: center;
+    
+}
+
+.fixture h3, p{
+    margin: 0;
+    padding: 5px 0px;
+}
+
+.group-01 {
+    padding: 5px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.group-01 a {
+    text-decoration: none;
+}
+ .gfont {
+     font-size: 12px;
+ }
+
+.img-link {
+    display: flex;
+    align-items: center;
+}
+
+ .flag-img {
+     margin-left: 10px;
+     
+     width: 80px;
+     height: 40px;
+     
+ }
+
+ .frame {
+     margin-top: 50px;
+ }
+
 footer {
     margin-top: 100px;
     margin-bottom: 70px;
@@ -199,3 +254,6 @@ footer p {
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
+
+
+
