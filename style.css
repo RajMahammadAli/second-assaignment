@@ -5,9 +5,101 @@
 
 
 header {
-    width: 1440px;
+    width: 100%;
     height: 677px;
     background-color: #2D25A0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navigation {
+    
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu {
+    margin-top: 40px;
+    margin-left: 146px;
+    width: 1007px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-size: 24px;
+    font-weight: 500;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-right: 36px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+
+
+.fas {
+    margin-right: 12px;
+}
+
+.main-text {
+    margin: 49px 136px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-text {
+    margin: 0;
+    padding: 0;
+    width: 780px;
+}
+
+.banner {
+    width: 450px;
+}
+
+.header-text {
+    margin-right: 156px;
+    
+}
+
+.button {
+    
+    color: white;   
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 7px 15px;
+    background-color: #E02C6D;
+    transition-property: background-image;
+    transition-duration: 1s;
+    transition-delay: .3em;
+
+
+}
+
+.button:hover {
+    background-image: linear-gradient(70deg, rgb(238, 163, 25), #df1861);
+    
+}
+
+.button>.fas {
+    padding-left: 10px;
+}
+
+.main-text h1 {
+    margin-bottom: 27px;
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+
+}
+
+
+.banner-image {
+    width: 556px;
+    height: 438px;
 }
 
 
@@ -18,8 +110,6 @@ header {
     width: 1050px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);  
-    
-
     grid-gap: 30px;
 }
 
@@ -28,6 +118,7 @@ header {
     height: 444px;
     border: none;
     box-shadow: 0px 0px 15px 0 gray;
+    font-family: 'Poppins', sans-serif;
 }
 
 .p-image {
@@ -104,4 +195,7 @@ footer img {
 footer p {
     margin: 20px;
     text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
